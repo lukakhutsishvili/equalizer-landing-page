@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body{
+    width:100%;
+    background-image: url(images/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: -300px;
+    background-position-x: calc(100% + 200px);
+}
+header{
+    padding:39.99px 24px 0px 24px;
+}
+h1{
+    margin-top: 64px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    color: #191826;    
+}
+.headertxt{
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;    
+}
+.pattern1{
+    display: none;
+}
+section{
+    position: relative;
+    margin-top:166px;
+    
+    background-color: #191826; 
+    display: grid;
+}
+.pattern2{
+    width:290px;
+    justify-self: center;
+}
+.mobilediv{
+    width: 210px;
+    position:absolute;
+    top: -20%;
+    right: 50%;
+    transform: translate(50%,0);
+}
+.mobile{
+    width:100%;
+}
+.orange{
+    box-sizing: border-box;
+    border-radius: 12px;
+    height: 546px;
+    background-color: #FA7453;
+    padding:48px 37px 48px 36px;
+    position: absolute;
+    top: 380px;
+}
+h2{
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color:white;
+}
+.orangetxt{
+    margin-top:12px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;  
+    color:white;  
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin-top:36px ;
+}
+.num{
+    color:white;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+}
+.month{
+    color:#FCFAF9;
+    margin-left:16px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.ios{
+    border-radius: 12px;
+    margin-top: 32px;
+    padding:15px 77px 14px 77px;
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    background-color: black;
+}
+.ios img{
+    align-self: center;
+}
+.android{
+    border-radius: 12px;
+    margin-top: 16px;
+    padding: 15px 57.5px 14px 62.34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}    
+.iostxt{
+    align-self: center;
+    font-family: 'IBM Plex Sans';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+    margin-left: 8px;
+}
+#androidtxt{
+    color:black;
+}
+footer{
+    margin-top: 648px;
+    padding:0px 24px 80px 24px;
+}
+.logo{
+    margin-left: 1.5px;
+} 
+.footertxt{
+    margin-top: 32px;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+}
+.bold{
+    font-weight: bold;
+}
+.icons{
+    margin-top:64px;
+    display: flex;
+}
+.inst,.tw{
+    margin-left: 20px;
+}
+svg:hover path{
+    fill:#FA7453;
+}
+svg:hover{
+    cursor: pointer;
+}
+.ios:hover{
+    background-color:#66E2DC;
+    cursor: pointer;
+}
+.android:hover{
+    cursor:pointer;
+    background-color: #FFB964;
+}
+.pattern1{
+    display: none;
+}
+
+
+
+@media(min-width:768px){
+    body{
+        background-image: url(images/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position-x: -300px;
+    }
+    .pattern1{
+        display: block;
+        position: absolute;
+        top:0px;
+        right:0px;
+        width:270px;
+    }
+    header {
+        padding:61.99px 0px 0px 39px;
+    }
+    h1{
+        margin-top: 95px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+        width:66%;
+    } 
+    .headertxt{
+        width:69%;
+        margin-top:  28px;
+        font-size: 18px;
+        line-height: 28px;
+        grid-row: 3;
+    }
+    section{ 
+        margin-top: 249px;
+        height:600px;
+        margin-right: 39px;
+        margin-left: 33px;
+        border-radius: 12px;
+    }
+    .ios{
+        margin-top: 32px;
+    }
+    .orange{
+        width:399px;
+        left: 37%;
+        top:150px;
+        padding-left: 49px;
+        padding-right: 49px;
+    }
+    .mobilediv{
+        top:-138px;
+        width:270px;
+        right: 52%;
+        transform: translate(0,0);
+    }
+    footer{
+        margin-top:182px;
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 32px;
+    }
+    .footertxt{
+        margin-top:0px;
+    }
+    .p{
+        grid-row:2;
+    }
+    .icons{
+        margin-right: 39px;
+        margin-left:230px;
+        margin-top:0px;
+        grid-row:2;
+    }
+}
+
+
+
+@media(min-width:1440px){
+header{
+    padding-left:165px;
+}
+body{
+    background-image: url(images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+}
+h1{
+    margin-top:167px;
+    font-size: 88px;font-size: 88px;
+    line-height: 88px;
+    letter-spacing: -1px;
+}
+.headertxt{
+    margin-top:40px;
+    font-size: 20px;
+    line-height: 34px;
+} 
+section{
+    margin-right: 165px;
+    margin-left: 165px;
+}
+.pattern1{
+    width: 315px;
+}
+.mobilediv{
+    width:280px;
+    left:10%;
+}
+.orange{
+    width:446px;
+    top:110px;
+    height:625px;
+    right: 10%;
+    left: 47%;
+    padding: 58px 59px 48px 54px
+}
+.pattern2{
+    margin-right: 16.5%;
+}
+h2{
+    font-size: 40px;
+    line-height: 52px;
+}
+.orangetxt {
+    margin-top: 22px;
+    font-size: 20px;
+    line-height: 34px;
+}
+.ios {
+    margin-top: 46px;
+    padding: 15px 95px 14px 95px;
+}
+.android{
+    padding: 15px 76px 14px 77px;
+}
+.price{
+    margin-top: 39px;
+}
+footer{
+    margin-top: 201px;
+    grid-template-columns: auto auto auto;
+}
+.p{
+    grid-row:1;
+    margin-left:138px;
+}
+.icons{
+    margin-right: 39px;
+    margin-left:359px;
+    margin-top:0px;
+    grid-row:1;
+}
+.logo{
+    grid-column: 1;
+    grid-row: 1;
+}
+}
